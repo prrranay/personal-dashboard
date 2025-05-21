@@ -3,7 +3,8 @@ import Navbar from "@/components/Navbar";
 import Profile from "@/components/Profile";
 import Academics from "@/components/Academics";
 import Skills from "@/components/Skills";
-import Certifications from "../components/Certifications";
+import Certifications from "@/components/Certifications";
+import { Section } from "@/data/sections";
 
 export default function HomePage() {
   const [current, setCurrent] = useState<Section>("home");
