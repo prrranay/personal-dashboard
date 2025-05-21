@@ -1,4 +1,3 @@
-// src/data/profile.ts
 export const profile = {
   name: "D Pranay Kumar",
   photo: "/profile.jpeg",
